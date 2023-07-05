@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .input{
+   border-radius: 10px;
+   border: none;
+   text-align: center;
+   padding: 5px;
+ }
+ 
+ .boton{
+     background-color: rgb(253, 245, 17);
+     color:rgb(214, 4, 4);
+     border-radius: 4px;
+     box-shadow: 0 0 2px 1px rgb(108, 39, 228);
+     margin: 10px;
+     /* height: 30px; */
+     font-weight: bold;
+     padding: 5px 10px;
+     font-family: "IBM Plex Mono", monospace;
+     
+ }
+ 
+ .boton:hover{
+     background-color: rgb(108, 39, 228);
+     color: rgb(253, 245, 17);
+ }
+ 
+ .search {
+    float:right;
+    margin: 15px;
+    
+ }
+ 
+ .contenedor{
+     background-color: rgba(0, 0, 0, 0.661);
+     height: 80px;
+     width: 100%;
+     border-bottom: 2px solid rgb(191, 79, 167) ;
+     
+ }
+
+ .contenedorSearch {
+    padding-top: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 9999;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
+
+ }
+
+ .contenedorNotFound {
+    padding-top: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 9999;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
+ }
+
+ .h2not {
+    font-family:"IBM Plex Mono", monospace;
+}

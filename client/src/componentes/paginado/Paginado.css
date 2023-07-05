@@ -1,0 +1,28 @@
+.fijo {
+    background-color: rgb(29, 20, 44);
+    color:rgb(222, 219, 4);
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    padding: 3px 5px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+}
+
+.fijo:hover{
+    background-color:  rgb(194, 2, 2);
+    color: rgb(253, 245, 17)
+}
+
+.active{
+    background-color:  rgb(194, 2, 2);
+    color: rgb(253, 245, 17);
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    padding: 3px 5px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+}

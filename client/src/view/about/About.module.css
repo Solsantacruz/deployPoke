@@ -1,0 +1,74 @@
+@font-face {
+    font-family: pokeFont;
+    src: url("../../assets//font/pokemon.ttf")
+  }
+
+
+
+.contenedorAbout {
+    background-image: url(../../assets/fondoAbout.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+
+  .titleImg {
+    position: absolute;
+    top: 10px;
+    
+  }
+
+  .titleImg img {
+    height: 200px;
+    width: 600px;
+  }
+
+  .titleH1 {
+    position: absolute;
+    top: 120px;
+    right: 600px;
+    font-size: 4rem;
+    font-family: pokeFont;
+    -webkit-text-stroke: 2px rgb(0, 0, 190);
+    -webkit-text-fill-color: #fff422;
+  }
+
+  .contenedorParrafo {
+    position: absolute;
+    top: 275px;
+    height: 450px;
+    width: 950px;
+    border: 4px solid rgba(238, 238, 147, 0.953);
+    background-color: #f5f4ebe5;
+  }
+
+  .titleParr {
+    margin-left: 22%;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    -webkit-text-stroke: 1.5px rgb(57, 3, 64);
+    /* -webkit-text-fill-color: #fcf56c; */
+  }
+
+  .texto1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #373507;
+  }
+
+  .texto2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1c1b18;
+  }

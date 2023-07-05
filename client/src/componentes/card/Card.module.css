@@ -1,0 +1,250 @@
+.card {
+    width:200px;
+    height: 120px;
+    border-radius: 6px;
+    margin:10px 25px ;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border: 5px solid rgb(93, 92, 92);
+    text-decoration: none;
+    position: relative;
+    background: rgba(255, 254, 254, 0.782);
+}
+
+.card:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 0 10px 6px rgb(199, 197, 197);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.name {
+    /* color:rgb(26, 9, 81); */
+    font-family:"IBM Plex Mono", monospace;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px rgb(44, 44, 45);
+    -webkit-text-fill-color: #585858;
+}
+
+.img{
+  position: absolute;
+  top: 15px;
+  right: -26px;
+}
+
+.p {
+  position: absolute;
+    color:rgb(69, 82, 4);
+    font-family:"IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    top: 70px;
+    margin: 0 5px;
+}
+
+.pAttk {
+  position: absolute;
+    color:rgb(69, 82, 4);
+    font-family:"IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    top: 50px;
+    margin: 0 5px;
+}
+
+.fire {
+  background: rgb(221,98,68);
+  background: linear-gradient(90deg, rgba(221,98,68,0.9808298319327731) 15%, rgba(237,122,83,1) 38%, rgba(255,160,129,1) 60%, rgba(252,69,76,1) 81%);
+  }
+
+  .fire:hover {
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(255, 96, 96);
+  }
+  
+  .water {
+    background: rgb(96,68,221);
+    background: linear-gradient(90deg, rgba(96,68,221,0.9808298319327731) 15%, rgba(83,187,237,1) 38%, rgba(129,255,249,1) 60%, rgba(118,69,252,1) 81%);
+    /* Otros estilos específicos para el tipo "water" */
+  }
+  .water:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(99, 99, 255);
+  }
+  
+  .grass {
+    background: rgb(47,148,86);
+    background: linear-gradient(90deg, rgba(47,148,86,0.8995973389355743) 17%, rgba(41,253,29,0.9164040616246498) 50%, rgba(193,252,69,1) 100%);
+    
+  }
+
+  .grass:hover{
+    box-shadow: 0 0 10px 6px rgb(0, 255, 0);
+    transform: translateY(-3%);
+  }
+
+  .bug {
+    background: rgb(176,221,68);
+    background: linear-gradient(90deg, rgba(176,221,68,0.9808298319327731) 15%, rgba(218,239,86,1) 31%, rgba(221,255,102,1) 46%, rgba(193,252,69,1) 69%);
+  }
+  .bug:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(178, 255, 83);
+  }
+
+  .normal {
+    background: rgb(255,203,219);
+    background: linear-gradient(90deg, rgba(255,203,219,1) 15%, rgba(255,225,235,1) 38%, rgba(255,231,193,1) 60%, rgba(255,211,245,1) 81%);  
+  }
+ .normal:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 0 10px 6px rgb(255,203,219);
+ }
+
+  .electric {
+    background: rgb(222,219,8);
+    background: linear-gradient(90deg, rgba(222,219,8,1) 15%, rgba(254,250,131,1) 38%, rgba(255,251,193,1) 60%, rgba(255,252,23,1) 81%);
+  }
+  .electric:hover{ 
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(255, 255, 84);
+  }
+
+  .poison {
+    background: rgb(168,68,221);
+    background: linear-gradient(90deg, rgba(168,68,221,0.9808298319327731) 15%, rgba(220,83,237,1) 38%, rgba(222,129,255,1) 60%, rgba(176,69,252,1) 81%);
+  }
+  .poison:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(118, 51, 114); 
+  }
+
+  .ground {
+    background: rgb(196,148,42);
+    background: linear-gradient(90deg, rgba(196,148,42,0.9808298319327731) 15%, rgba(237,196,83,1) 38%, rgba(255,241,129,1) 60%, rgba(175,132,63,1) 81%);
+  }
+  .ground:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px  rgb(224, 146, 0);
+  }
+
+  .ghost {
+    background: rgb(106,88,110);
+    background: linear-gradient(90deg, rgba(106,88,110,0.9808298319327731) 15%, rgba(179,119,194,1) 38%, rgba(245,151,244,1) 60%, rgba(131,81,143,1) 81%);
+  }
+  .ghost:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(255, 180, 250);
+  }
+
+  .rock {
+    background: rgb(113,113,113);
+    background: linear-gradient(90deg, rgba(113,113,113,0.9808298319327731) 15%, rgba(187,186,187,1) 38%, rgba(235,235,235,1) 60%, rgba(164,164,164,1) 81%);
+  }
+  .rock:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(150, 150, 150);
+  }
+
+  .flying {
+    background: rgb(232,229,187);
+    background: linear-gradient(90deg, rgba(232,229,187,1) 15%, rgba(255,251,200,1) 38%, rgba(247,247,203,1) 60%, rgba(231,228,201,1) 81%);
+  }
+  .flying:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(249, 255, 180);
+  }
+
+  .fighting {
+    background: rgb(219,218,193);
+    background: linear-gradient(90deg, rgba(219,218,193,1) 15%, rgba(255,252,215,1) 38%, rgba(255,255,255,1) 60%, rgba(227,224,196,1) 81%);
+  }
+  .fighting:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(101, 127, 183);
+  }
+
+  .fairy{
+    background: rgb(255,126,224);
+    background: linear-gradient(90deg, rgba(255,126,224,1) 15%, rgba(255,178,229,1) 38%, rgba(252,167,203,1) 60%, rgba(238,73,160,1) 81%);
+  }
+  .fairy:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(255, 104, 184);
+  }
+
+  .psychic{
+    background: rgb(178,180,87);
+    background: linear-gradient(90deg, rgba(178,180,87,1) 15%, rgba(255,226,91,1) 38%, rgba(255,173,43,1) 60%, rgba(196,171,0,1) 81%);
+  }
+  .psychic:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px  rgb(231, 187, 142);
+  }
+
+  .ice {
+    background: rgb(96,68,221);
+    background: linear-gradient(90deg, rgba(96,68,221,0.9808298319327731) 15%, rgba(83,187,237,1) 38%, rgba(129,255,249,1) 60%, rgba(118,69,252,1) 81%);
+    /* Otros estilos específicos para el tipo "water" */
+  }
+  .ice:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(99, 99, 255);
+  }
+
+  .dark {
+    background: rgb(16, 0, 27);
+    
+    /* Otros estilos específicos para el tipo "water" */
+  }
+  .dark:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(35, 7, 40);
+  }
+
+  .unknown {
+    background: rgb(33, 4, 52);
+    
+    /* Otros estilos específicos para el tipo "water" */
+  }
+  .unknown:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(35, 7, 40);
+  }
+
+  .steel {
+    background: rgb(222,219,8);
+    background: linear-gradient(90deg, rgba(222,219,8,1) 15%, rgba(254,250,131,1) 38%, rgba(255,251,193,1) 60%, rgba(255,252,23,1) 81%);
+  }
+  .steel:hover{ 
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(255, 255, 84);
+  }
+
+  .shadow {
+    background: rgb(33, 4, 52);
+    
+    /* Otros estilos específicos para el tipo "water" */
+  }
+  .shadow:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 10px 6px rgb(35, 7, 40);
+  }
+
+  .dragon {
+    background: rgb(221,98,68);
+    background: linear-gradient(90deg, rgba(221,98,68,0.9808298319327731) 15%, rgba(237,122,83,1) 38%, rgba(255,160,129,1) 60%, rgba(252,69,76,1) 81%);
+    }
+  
+    .dragon:hover {
+      transform: translateY(-3%);
+      box-shadow: 0 0 10px 6px rgb(255, 96, 96);
+    }

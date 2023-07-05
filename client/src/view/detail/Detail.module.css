@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.contenedorP {
+  background-image: url(../../assets/fondoDetail.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ 
+}
+
+.ash{
+ position: absolute;
+ top: 59.23%;
+ left: 65%;
+}
+
+.contenedorPokeDex {
+    max-width: 425px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+
+
+.imgPoke{
+    position: absolute;
+    bottom: 48%;
+    left: 50.5%;
+    transform: translate(-60.5%, 18%);
+    height: 18%;
+}
+
+.loading {
+    position: absolute;
+    bottom: 45%;
+    left: 49%;
+    transform: translate(-50%, 20%);
+    height: 200px;
+}
+
+.h1Loading {
+    position: absolute;
+    bottom: 15%;
+    left: 44%;
+    font-size: 2rem;
+    font-family: "IBM Plex Mono", monospace;
+}
+.data {
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    background-color: #54f503;
+    bottom: 6.2%;
+    left: 10.9%;
+    border-radius: 5px;
+    box-shadow: -3px 4px 0  #679053, -5px 7px 0  #2d4024;
+}
+
+.pData{
+    position: absolute;
+    left: 36%;
+    font-size: 2rem;
+
+}
+
+.typePoke {
+    position: absolute;
+    top: 73.5%;
+    left: 40%;
+    font-size: 1.3rem;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.deletePoke {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: red;
+    color: white;
+    position: absolute;
+    top: 31.5%;
+    left: 39.3%;
+    cursor: pointer;
+}
+
+.deleteP{
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    color: #313a41;
+    font-weight: 900;
+
+}
+
+
+.namePoke{
+    position: absolute;
+    font-weight: 600;
+    top: 59.5%;
+    left: 46%;
+    font-size: clamp(8px, 5vw, 30px);
+    font-family: "IBM Plex Mono", monospace;
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.life{
+    position: absolute;
+    top: 78%;
+    left: 40%;
+    font-size: 1.3rem;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.attack {
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    font-size: 1.3rem;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.defense {
+    position: absolute;
+    top: 88%;
+    left: 40%;
+    font-size: 1.3rem;
+    font-family: "IBM Plex Mono", monospace;
+}
+.speed{
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    font-size: 1.3rem;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.height {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    font-size: 20px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.weight{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    font-size: 20px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.delete {
+    position: absolute;
+    top: 13%;
+    left: 65%;
+    height: 5%;
+    width: 15%;
+    background-color: #313a41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3px 2px 0  #515251;
+    cursor: pointer;
+}
